@@ -9,26 +9,26 @@ namespace ArmstrongNumber.Models
     internal class Armstrong
     {
         static int divisor = 10;
-        public static bool IsArmstrong(int number)
+        public static string CheckArmstrong(int number)
         {
             double answer = 0;
             int numberOfDigits = CalculateDigits(number);
             int temp = number;
 
             //Calculate te power of each digit 
-            while (number > 0)
+            while (temp > 0)
             {
-                int digit = number % divisor;
-                number = number / divisor;
+                int digit = temp % divisor;
+                temp = temp / divisor;
                 answer = answer + Math.Pow(digit, numberOfDigits);
             }
 
             //Check for armstrong number
-            if (answer == temp)
+            if (answer == number)
             {
-                return true;
+                return $"The number {number} is Armstrong Number.";
             }
-            return false;
+            return $"The number {number} is not an Armstrong Number";
         }
 
         //Calculate the number of digits
