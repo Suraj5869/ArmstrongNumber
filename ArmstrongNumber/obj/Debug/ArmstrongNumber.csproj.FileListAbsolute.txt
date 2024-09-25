@@ -1,0 +1,7 @@
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ArmstrongNumber\ArmstrongNumber\bin\Debug\ArmstrongNumber.exe.config
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ArmstrongNumber\ArmstrongNumber\bin\Debug\ArmstrongNumber.exe
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ArmstrongNumber\ArmstrongNumber\bin\Debug\ArmstrongNumber.pdb
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ArmstrongNumber\ArmstrongNumber\obj\Debug\ArmstrongNumber.csproj.AssemblyReference.cache
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ArmstrongNumber\ArmstrongNumber\obj\Debug\ArmstrongNumber.csproj.CoreCompileInputs.cache
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ArmstrongNumber\ArmstrongNumber\obj\Debug\ArmstrongNumber.exe
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ArmstrongNumber\ArmstrongNumber\obj\Debug\ArmstrongNumber.pdb
