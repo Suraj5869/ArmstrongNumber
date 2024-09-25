@@ -8,15 +8,17 @@ namespace ArmstrongNumber.Models
 {
     internal class Armstrong
     {
-        static int divisor = 10;
+        const int divisor = 10;
+        const int min = 0;
         public static string CheckArmstrong(int number)
         {
             double answer = 0;
             int numberOfDigits = CalculateDigits(number);
             int temp = number;
+            
 
             //Calculate te power of each digit 
-            while (temp > 0)
+            while (temp > min)
             {
                 int digit = temp % divisor;
                 temp = temp / divisor;
@@ -36,7 +38,7 @@ namespace ArmstrongNumber.Models
         {
             int count = 0;
 
-            while (number > 0) { 
+            while (number > min) { 
                 number = number / divisor;
                 count++;
             }
